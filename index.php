@@ -40,7 +40,7 @@ $cofuid3 = '1889292794';
 //FUNCIONES
 include 'functions.php';
 //DATABASE CONNECT
-$link = mysqli_connect("sql102.hyperphp.com", "hp_33739849", "Kontol000@", "hp_33739849_yh");
+$link = mysqli_connect("sql12.freesqldatabase.com", "sql12604290", "Ff8838nkHg", "sql12604290");
 if($link === false){
     sendMessage1("ERROR: Could not connect. " . mysqli_connect_error());
     echo '<hr>' . mysqli_connect_error();
