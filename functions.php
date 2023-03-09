@@ -1,6 +1,6 @@
 <?php
 #Empieza La Creacion De Funciones
-$link = mysqli_connect("sql102.hyperphp.com", "hp_33739849", "Kontol000@", "hp_33739849_yh");
+$link = mysqli_connect("sql12.freesqldatabase.com", "sql12604290", "Ff8838nkHg", "sql12604290");
 
 function sendMessage($chatId, $message, $message_id)
 {
