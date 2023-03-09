@@ -34,7 +34,8 @@ function SetAdmin($data)
         $file = fopen("admins.txt", "a+");
         fwrite($file, $data . PHP_EOL);
         fclose($file);
-$link = mysqli_connect("sql102.hyperphp.com", "hp_33739849", "Kontol000@", "hp_33739849_yh");
+$link = mysqli_connect("sql12.freesqldatabase.com", "sql12604290", "Ff8838nkHg", "sql12604290");
+
 $sql = "INSERT INTO PERSONS (userid, role, username, credits) VALUES( '$data', '[ADMIN]', '$username', '99999999') ";
 $result = mysqli_query($link, $sql);
 mysqli_close($link);
