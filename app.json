@@ -1,0 +1,31 @@
+{
+
+    "name": "brianbot",
+
+    "description": "A Telegram CC Checker Bot with hella lotta features.",
+
+    "logo": "https://pbs.twimg.com/profile_images/1252291883793027074/RfEhm8yV_400x400.jpg",
+
+
+
+
+
+
+
+    "repository": "https://github.com/bri4nism/brianbot",
+ 
+
+    "formation": {
+
+        "web": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    },
+
+    "image": "heroku/php"
+}
